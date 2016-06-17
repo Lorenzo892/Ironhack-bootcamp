@@ -1,0 +1,2 @@
+name= "valentine"
+puts name
