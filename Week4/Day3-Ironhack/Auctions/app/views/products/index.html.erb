@@ -1,0 +1,9 @@
+<h1><%=@user.name%></h1>
+<ul>
+
+  <%@products.each do |product| %>
+  <li>
+    <%=link_to "title:#{product.title}: #{product.description} - #{product.deadline}", user_product_path(@user, product.id), class: "text" %>
+  </li>
+  <%end%>
+</ul>

@@ -1,0 +1,10 @@
+<%= form_for [@product, @bids] do |f| %>
+  <%= f.label :email%>
+  <%= f.text_field :email%>
+  <br>
+  <%= f.label :amount%>
+  <%= f.text_field :amount%>
+
+  <%= f.submit "save"%>
+
+<%end%>

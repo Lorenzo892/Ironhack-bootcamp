@@ -1,0 +1,4 @@
+<li>
+<%=@product.title%> - <%=@product.description%>
+<%= link_to 'Bid for it!!!', new_user_product_bet_path(@user, @product), class: "text" %>
+</li>

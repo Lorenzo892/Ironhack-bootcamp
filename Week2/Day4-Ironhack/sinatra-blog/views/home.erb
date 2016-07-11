@@ -1,0 +1,11 @@
+
+<form  action="/details" method="post">
+
+<% @all_post.each_with_index do |post, index| %>
+  <a href="/details/<%=index%>"><%=post.title%></a><p>
+<% end %>
+</form>
+
+<form class="" action="/newpost" method="post">
+<button type="submit" name="operation" value="new_post">New post</button>
+</form>

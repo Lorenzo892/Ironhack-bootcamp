@@ -1,0 +1,21 @@
+.header-logo-default {
+    background-image: url(https://d78fikflryjgj.cloudfront.net/images/50b4ebc64391dc394a38e73aed57f0e2/header-logo.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 5pc 30px;
+    right: 0;
+    top: 0;
+}
+
+.container-fluid {
+  margin-top: 10px;
+}
+
+body {
+  background-image: url("https://trello-backgrounds.s3.amazonaws.com/53baf533e697a982248cd73f/4200x4200/48dbf0b5a546541e847e267a5dcd2201/shutterstock_134707556.jpg");
+  background-size: cover;
+}
+
+.btn-default{
+  margin: 1px;
+}

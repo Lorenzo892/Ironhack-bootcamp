@@ -1,0 +1,38 @@
+.box1 {
+  background-color: purple;
+  height: 100px;
+  width: 100%;
+}
+.green{
+  background-color: green;
+}
+
+.gray {
+  background-color: gray;}
+
+nav{
+  margin:  auto;
+}
+
+ul{
+  border: 2px solid black;
+  padding: 4px;
+  width: 250px;
+  margin: 10px auto;
+}
+
+li{
+  display: inline-block;
+}
+.box2 {
+  position: relative;
+  display: inline-block;
+  top: 10px;
+  width: 200px;
+}
+
+.box2 h2 {
+  text-align: center;}
+img {
+  margin: 5px;
+}

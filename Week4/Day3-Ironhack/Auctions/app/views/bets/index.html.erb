@@ -1,0 +1,9 @@
+
+<h1><%=@product.title%></h1>
+<ul>
+  <%@bets.each do |bet| %>
+  <li>
+    <p> bet: <%=bet.user_id%> : <%=bet.amount %> </p>
+  </li>
+  <%end%>
+</ul>
