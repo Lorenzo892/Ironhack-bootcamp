@@ -1,0 +1,17 @@
+<h1>The <%=@sandwich.name%> Sandwich</h1>
+<h2>Type of Bread: <%=@sandwich.bread_type%></h2>
+<ul>
+  <%total_calories=0%>
+<%@sandwich.ingredients.each do |ingredient|%>
+  <li>
+  <%= ingredient.name %>
+  <%total_calories += ingredient.calories%>
+  </li>
+<% end%>
+</ul>
+<h3>Total Calories = <span class="calories"><%=total_calories%></span></h3>
+
+<h2>Add an ingredient to this sandwich</h2>
+<%@ingredients.each do |ingredient|%>
+<button class= "<%=ingredient.id%>"> <%= ingredient.name%> </button>
+<%end%>
